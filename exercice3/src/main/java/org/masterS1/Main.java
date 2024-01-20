@@ -16,7 +16,7 @@ public class Main {
 //        de chaque véhicule. Enfin, affichez toutes les informations, y compris les attributs
 //        supplémentaires et le prix, avec la méthode afficherInformations().
 // first method
-        /*Vehicule vehiculeVoiture = new Voiture("Audi",320000,"2023");
+        Vehicule vehiculeVoiture = new Voiture("Audi",320000,"2023");
         Vehicule vehiculeMoto = new Moto("Moto",12000,"Marque");
         Vehicule vehiculeAvion = new Avion("Avion",4000000,"Comp1","5000");
         vehiculeVoiture.emettreSon();
@@ -24,16 +24,20 @@ public class Main {
         vehiculeAvion.emettreSon();
         vehiculeVoiture.afficherInformations();
         vehiculeMoto.afficherInformations();
-        vehiculeAvion.afficherInformations();*/
+        vehiculeAvion.afficherInformations();
 
         //polymorphism method
-        Vehicule[] vehicules= new Vehicule[3];
+        /*Vehicule[] vehicules= new Vehicule[3];
         vehicules[0]  = new Voiture("Audi",320000,"2023");
         vehicules[1]  = new Moto("Moto",12000,"Marque");
         vehicules[2]  = new Avion("Avion",4000000,"Comp1","5000");
         for (Vehicule vehicule: vehicules){
+            if(vehicule instanceof Voiture)
+                System.out.println("car");
             vehicule.emettreSon();
             vehicule.afficherInformations();
         }
+*/
+
     }
 }
