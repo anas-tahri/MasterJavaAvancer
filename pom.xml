@@ -12,5 +12,8 @@
     <module>tp2</module>
     <module>exercice3</module>
       <module>excercice5</module>
+      <module>TP4_ex1</module>
+    <module>TP4-ex2</module>
+    <module>TP4_ex3</module>
   </modules>
 </project>
